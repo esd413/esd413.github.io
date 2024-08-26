@@ -1,3 +1,13 @@
 site_name: My Docs
 theme:
   name: material
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+nav:
+  - 简介:
+    - Getting Started: index.md
